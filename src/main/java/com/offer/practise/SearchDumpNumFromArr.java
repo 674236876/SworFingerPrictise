@@ -71,8 +71,17 @@ public class SearchDumpNumFromArr {
             throw new IllegalArgumentException("数组为空");
         }
 
+//        校验数组是否符合规则
+        for (int value : intArr) {
+            if (value < 0 || value > intArr.length - 1) {
+                throw new IllegalArgumentException("数组不符合要求");
+            }
+        }
+
+
         for (int i = 0; i < intArr.length; i++) {
             int m = intArr[i];
+
             if (i == m) {
                 continue;
             } else {

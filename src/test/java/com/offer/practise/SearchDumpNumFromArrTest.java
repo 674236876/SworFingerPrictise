@@ -92,9 +92,9 @@ public class SearchDumpNumFromArrTest {
         Assert.assertEquals(1, result);
     }
 
-    @Test
+    @Test(expected = IllegalArgumentException.class)
     public void searchByResortExistDumpTest2() {
-        int[] arr = {0, 4, 1, 2, 3, 4};
+        int[] arr = {-1, 4, 1, 2, 3, 4};
         int result = SearchDumpNumFromArr.seachByReSort(arr);
         Assert.assertEquals(4, result);
     }
