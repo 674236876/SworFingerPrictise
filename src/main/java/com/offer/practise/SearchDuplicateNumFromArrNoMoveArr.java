@@ -8,6 +8,13 @@ package com.offer.practise;
  */
 public class SearchDuplicateNumFromArrNoMoveArr {
 
+    /**
+     * @author zhugp
+     * @description 通过空间换时间，空间复杂度O(n),时间复杂度O(n)
+     * @date 2019/9/6 14:53
+     * @param intArr
+     * @return int
+     **/
     public static int searchDuplicateNumByNewArr(int[] intArr) throws IllegalArgumentException {
 
         if (intArr == null) {
@@ -36,6 +43,13 @@ public class SearchDuplicateNumFromArrNoMoveArr {
     }
 
 
+    /**
+     * @author zhugp
+     * @description 拿时间换空间，时间复杂度O(nlogn) 空间复杂度O(1)
+     * @date 2019/9/6 14:54
+     * @param intArr
+     * @return int
+     **/
     public static int searchDuplicateNumBySplit(int[] intArr) throws IllegalArgumentException {
         if (intArr == null) {
             throw new IllegalArgumentException("数组为空");
@@ -73,7 +87,16 @@ public class SearchDuplicateNumFromArrNoMoveArr {
         return -1;
     }
 
-    public static int numShowCount(int min, int max, int[] arr) {
+    /**
+     * @author zhugp
+     * @description 获取范围内指定范围内数字出现的次数
+     * @date 2019/9/6 14:58
+     * @param min
+     * @param max
+     * @param arr
+     * @return int
+     **/
+    private static int numShowCount(int min, int max, int[] arr) {
         //计数器 遍历过程中满足该范围内时+1
         int count = 0;
 
