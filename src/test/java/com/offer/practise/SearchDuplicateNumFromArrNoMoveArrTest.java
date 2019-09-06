@@ -9,20 +9,20 @@ public class SearchDuplicateNumFromArrNoMoveArrTest {
     public void searchDuplicateNumByNewArrTest() {
 
         int[] arr = {1, 3, 5, 4, 3, 2, 6, 7};
-        int result = SearchDuplicateNumFromArrNoMoveArr.searchDuplicateNumByNewArr(arr);
+        int result = SearchDuplicateNumFromArrNoMoveArr_3_2.searchDuplicateNumByNewArr(arr);
         Assert.assertEquals(3, result);
     }
 
     @Test(expected = IllegalArgumentException.class)
     public void searchDuplicateNumByNewArrNullTest() {
         int[] arr = null;
-        int result = SearchDuplicateNumFromArrNoMoveArr.searchDuplicateNumByNewArr(arr);
+        int result = SearchDuplicateNumFromArrNoMoveArr_3_2.searchDuplicateNumByNewArr(arr);
     }
 
     @Test(expected = IllegalArgumentException.class)
     public void searchDuplicateNumByNewArrOutRangeTest() {
         int[] arr = {1, 3, 5, 4, 3, 2, 6, 9};
-        int result = SearchDuplicateNumFromArrNoMoveArr.searchDuplicateNumByNewArr(arr);
+        int result = SearchDuplicateNumFromArrNoMoveArr_3_2.searchDuplicateNumByNewArr(arr);
         Assert.assertEquals(3, result);
     }
 
@@ -30,20 +30,20 @@ public class SearchDuplicateNumFromArrNoMoveArrTest {
     public void searchDuplicateNumBySplitTest() {
 
         int[] arr = {1, 3, 5, 4, 3, 2, 6, 7};
-        int result = SearchDuplicateNumFromArrNoMoveArr.searchDuplicateNumBySplit(arr);
+        int result = SearchDuplicateNumFromArrNoMoveArr_3_2.searchDuplicateNumBySplit(arr);
         Assert.assertEquals(3, result);
     }
 
     @Test(expected = IllegalArgumentException.class)
     public void searchDuplicateNumBySplitNullTest() {
         int[] arr = null;
-        SearchDuplicateNumFromArrNoMoveArr.searchDuplicateNumBySplit(arr);
+        SearchDuplicateNumFromArrNoMoveArr_3_2.searchDuplicateNumBySplit(arr);
     }
 
     @Test(expected = IllegalArgumentException.class)
     public void searchDuplicateNumBySplitOutRangeTest() {
         int[] arr = {1, 3, 5, 4, 3, 2, 6, 9};
-        int result = SearchDuplicateNumFromArrNoMoveArr.searchDuplicateNumBySplit(arr);
+        int result = SearchDuplicateNumFromArrNoMoveArr_3_2.searchDuplicateNumBySplit(arr);
         Assert.assertEquals(3, result);
     }
 }

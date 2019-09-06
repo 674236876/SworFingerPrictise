@@ -16,28 +16,28 @@ public class SearchDumpNumFromArrTest {
     @Test
     public void searchBySortNoDumpTest() {
         int[] arr = {1, 2, 3, 4, 5};
-        int result = SearchDumpNumFromArr.searchBySort(arr);
+        int result = SearchDumpNumFromArr_3_1.searchBySort(arr);
         Assert.assertEquals(-1, result);
     }
 
     @Test
     public void searchBySortExistDumpTest() {
         int[] arr = {1, 4, 1, 2, 4};
-        int result = SearchDumpNumFromArr.searchBySort(arr);
+        int result = SearchDumpNumFromArr_3_1.searchBySort(arr);
         Assert.assertEquals(1, result);
     }
 
     @Test
     public void searchBySortExistDumpTest1() {
         int[] arr = {1, 4, 1, 2, 3};
-        int result = SearchDumpNumFromArr.searchBySort(arr);
+        int result = SearchDumpNumFromArr_3_1.searchBySort(arr);
         Assert.assertEquals(1, result);
     }
 
     @Test
     public void searchBySortExistDumpTest2() {
         int[] arr = {-1, 4, 1, 2, 3, 4};
-        int result = SearchDumpNumFromArr.searchBySort(arr);
+        int result = SearchDumpNumFromArr_3_1.searchBySort(arr);
         Assert.assertEquals(4, result);
     }
 
@@ -45,28 +45,28 @@ public class SearchDumpNumFromArrTest {
     @Test
     public void searchByMapNoDumpTest() {
         int[] arr = {1, 2, 3, 4, 5};
-        int result = SearchDumpNumFromArr.searchByMap(arr);
+        int result = SearchDumpNumFromArr_3_1.searchByMap(arr);
         Assert.assertEquals(-1, result);
     }
 
     @Test
     public void searchByMapExistDumpTest() {
         int[] arr = {1, 4, 1, 2, 4};
-        int result = SearchDumpNumFromArr.searchByMap(arr);
+        int result = SearchDumpNumFromArr_3_1.searchByMap(arr);
         Assert.assertEquals(1, result);
     }
 
     @Test
     public void searchByMapExistDumpTest1() {
         int[] arr = {1, 4, 1, 2, 3};
-        int result = SearchDumpNumFromArr.searchByMap(arr);
+        int result = SearchDumpNumFromArr_3_1.searchByMap(arr);
         Assert.assertEquals(1, result);
     }
 
     @Test
     public void searchByMapExistDumpTest2() {
         int[] arr = {-1, 4, 1, 2, 3, 4};
-        int result = SearchDumpNumFromArr.searchByMap(arr);
+        int result = SearchDumpNumFromArr_3_1.searchByMap(arr);
         Assert.assertEquals(4, result);
     }
 
@@ -74,35 +74,35 @@ public class SearchDumpNumFromArrTest {
     @Test(expected = IllegalArgumentException.class)
     public void searchByMapExistDumpTest3() {
         int[] arr = null;
-        int result = SearchDumpNumFromArr.searchByMap(arr);
+        int result = SearchDumpNumFromArr_3_1.searchByMap(arr);
         Assert.assertEquals(4, result);
     }
 
     @Test
     public void searchByResortExistDumpTest() {
         int[] arr = {1, 3, 1, 2, 4};
-        int result = SearchDumpNumFromArr.seachByReSort(arr);
+        int result = SearchDumpNumFromArr_3_1.seachByReSort(arr);
         Assert.assertEquals(1, result);
     }
 
     @Test
     public void searchByResortExistDumpTest1() {
         int[] arr = {1, 4, 1, 2, 3};
-        int result = SearchDumpNumFromArr.seachByReSort(arr);
+        int result = SearchDumpNumFromArr_3_1.seachByReSort(arr);
         Assert.assertEquals(1, result);
     }
 
     @Test(expected = IllegalArgumentException.class)
     public void searchByResortExistDumpTest2() {
         int[] arr = {-1, 4, 1, 2, 3, 4};
-        int result = SearchDumpNumFromArr.seachByReSort(arr);
+        int result = SearchDumpNumFromArr_3_1.seachByReSort(arr);
         Assert.assertEquals(4, result);
     }
 
     @Test(expected = IllegalArgumentException.class)
     public void searchByResortExistDumpTest3() {
         int[] arr = null;
-        int result = SearchDumpNumFromArr.seachByReSort(arr);
+        int result = SearchDumpNumFromArr_3_1.seachByReSort(arr);
         Assert.assertEquals(4, result);
     }
 }

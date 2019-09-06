@@ -3,10 +3,10 @@ package com.offer.practise;
 /**
  * @author zhugp
  * @description 在不移动数组元素的情况下查找重复的数据
- * @see SearchDumpNumFromArr
+ * @see SearchDumpNumFromArr_3_1
  * @date 2019/9/6 11:27
  */
-public class SearchDuplicateNumFromArrNoMoveArr {
+public class SearchDuplicateNumFromArrNoMoveArr_3_2 {
 
     /**
      * @author zhugp

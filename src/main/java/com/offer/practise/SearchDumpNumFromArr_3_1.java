@@ -9,7 +9,7 @@ import java.util.Map;
  * @description 面试题3 排序
  * @date 2019/9/6 9:58
  */
-public class SearchDumpNumFromArr {
+public class SearchDumpNumFromArr_3_1 {
 
     /**
      * @author zhugp
