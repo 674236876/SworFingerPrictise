@@ -1,16 +1,15 @@
-package com.offer.practise;
+package com.offer.practise.chapter3Test;
 
+import com.offer.practise.chapter3.ReplaceSpace_5_1;
 import org.junit.Assert;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 public class ReplaceSpace_5_1Test {
 
     @Test
     public void modefyStrTest() {
         StringBuffer sb = new StringBuffer(" 123");
-        Assert.assertEquals("%20123",ReplaceSpace_5_1.modefyStr(sb));
+        Assert.assertEquals("%20123", ReplaceSpace_5_1.modefyStr(sb));
         StringBuffer sb1 = new StringBuffer("1 23");
         Assert.assertEquals("1%2023",ReplaceSpace_5_1.modefyStr(sb1));
         StringBuffer sb2 = new StringBuffer("1  23");

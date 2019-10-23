@@ -1,5 +1,6 @@
-package com.offer.practise;
+package com.offer.practise.chapter3Test;
 
+import com.offer.practise.chapter3.ReplaceSpace_5_2;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

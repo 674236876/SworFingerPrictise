@@ -1,5 +1,6 @@
-package com.offer.practise;
+package com.offer.practise.chapter2Test;
 
+import com.offer.practise.chapter2.SearchDumpNumFromArr_3_1;
 import org.junit.Assert;
 import org.junit.Test;
 

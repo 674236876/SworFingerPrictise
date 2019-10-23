@@ -1,4 +1,4 @@
-package com.offer.practise;
+package com.offer.practise.chapter1;
 
 /**
  * @author zhugp

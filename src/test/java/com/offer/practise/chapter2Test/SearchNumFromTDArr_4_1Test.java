@@ -1,5 +1,6 @@
-package com.offer.practise;
+package com.offer.practise.chapter2Test;
 
+import com.offer.practise.chapter2.SearchNumFromTDArr_4_1;
 import org.junit.Test;
 
 import static org.junit.Assert.*;

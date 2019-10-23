@@ -1,5 +1,6 @@
-package com.offer.practise;
+package com.offer.practise.chapter2Test;
 
+import com.offer.practise.chapter2.SearchDuplicateNumFromArrNoMoveArr_3_2;
 import org.junit.Assert;
 import org.junit.Test;
 

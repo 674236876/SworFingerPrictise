@@ -1,4 +1,4 @@
-package com.offer.practise;
+package com.offer.practise.chapter2;
 
 import java.util.Arrays;
 import java.util.HashMap;
